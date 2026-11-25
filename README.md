@@ -13,8 +13,8 @@
 | 应用代码（`index.html` / `tools/` / `docs/`） | 本项目 | **MIT** | 自由使用、修改、再分发 |
 | 内置示例户型（三室两厅两卫） | 本项目手写 | MIT | 46 件家具、承重墙标注均为人工录入 |
 | `layouts/` 户型库（172–660 套） | 由 [CubiCasa5K](https://github.com/CubiCasa/CubiCasa5k) 转换 | **CC BY-NC-SA 4.0** | 仅非商业用途；需署名；再分发需同协议 |
-| `docs/samples/cubicasa/*` | 同上（单套样本） | CC BY-NC-SA 4.0 | 同上 |
-| `docs/samples/r2v/*` | [R2V（ICCV 2017）](https://github.com/art-programmer/FloorplanTransformation) | 代码 MIT；**原图版权归原作者** | 仅作格式示例 |
+| `docs/samples/cubicasa/*` | 同上（单套样本） | CC BY-NC-SA 4.0 | 含署名与[修改说明](docs/samples/cubicasa/README.md) |
+| `docs/samples/r2v/*` | [R2V（ICCV 2017）](https://github.com/art-programmer/FloorplanTransformation) | 代码 MIT；原图版权归 LIFULL | **数据不随仓库分发**，只保留格式说明 |
 | `.cache/cubicasa5k/`（5000 套原始标注，360 MB） | CubiCasa5K | CC BY-NC-SA 4.0 | **不进仓库**（`.gitignore` 已排除） |
 | `layouts*/`（生成物，约 32 MB） | 本项目转换产物 | 随上游数据集 | **不进仓库**，可由命令重建 |
 

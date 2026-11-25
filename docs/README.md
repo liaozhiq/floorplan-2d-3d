@@ -45,7 +45,7 @@ node tools\serve.mjs 8123
 | `r2v-数据评估.md` | ICCV 2017 R2V 数据集的可用性评估、五处硬伤、与 CubiCasa5K 对比 |
 | `layout-4br-2lr-2ba.json` | 手写的四室两厅两卫示例数据（矩形房间，校验 0 error） |
 | `samples/cubicasa/` | 从 CubiCasa5K 转换的真实四室户型（含许可说明） |
-| `samples/r2v/` | 从 R2V 转换的样本（MIT 许可） |
+| `samples/r2v/` | R2V 样本的格式说明与生成方法（**数据不随仓库分发**） |
 
 ## 相关工具
 

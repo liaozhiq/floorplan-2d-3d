@@ -5,7 +5,7 @@
 
 相关文件：
 
-- [samples/r2v/](samples/r2v/) —— 2 份真实样本 + 转换结果 + 渲染图
+- [samples/r2v/](samples/r2v/) —— 格式说明与自建样本的方法（**样本数据本身不随仓库分发**，原因见该文）
 - [tools/r2v-to-layout.mjs](../tools/r2v-to-layout.mjs) —— 单文件转换器（也可作为模块 import）
 - [tools/r2v-find.mjs](../tools/r2v-find.mjs) —— 批量转换 + 按卧室数筛选
 - [tools/validate-layout.mjs](../tools/validate-layout.mjs) —— 校验器（`--polygons` 支持 L 形房间）
@@ -64,7 +64,10 @@
 
 **尺度先验的合理性**：日本 1LDK 通常 35–45 m²、2LDK 通常 50–70 m²，推定值都落在区间内 —— 说明「门宽先验」这条路是成立的。但它只有 ±5~10% 精度，**面积不能当结算依据**。
 
-渲染核对：[plan-a.png](samples/r2v/plan-a.png)、[plan-b.png](samples/r2v/plan-b.png)（墙体闭合、门洞落在墙上、房间分区正确）。
+渲染核对（本地验证，图片不随仓库分发）：墙体闭合、门洞落在墙上、房间分区正确，两份样本校验均为 0 error。
+
+> ⚠️ 样本数据不在仓库里 —— R2V 的 MIT 只覆盖代码，标注派生自真实图纸，版权归属不清。
+> 需要重跑请按 [samples/r2v/README.md](samples/r2v/README.md) 的两条命令在本地生成。
 
 ---
 
